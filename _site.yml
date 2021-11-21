@@ -1,0 +1,30 @@
+name: "tmol.org"
+title: "The Mathematics of Living"
+description: |
+  The Mathematics of Living
+output_dir: "_site"
+navbar:
+  logo:
+    image: images/i_like_turtles_bis.png
+    href: https://tmol.org
+  source_url: true
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa fa-rss
+      href: index.xml
+  search: true
+output:
+  distill::distill_article:
+    css: mmstyle.css
+    includes:
+      in_header: utterances.html
+base_url: https://tmol.org
+repository_url: https://www.github.com/joekroese/tmol.org
+favicon: images/favicon.ico
+collections:
+  posts:
+    share: [twitter, facebook, linkedin]
+    custom: _custom-sidebar.html

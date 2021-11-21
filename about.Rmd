@@ -1,0 +1,19 @@
+---
+title: "About this blog"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Who am I?
+
+My name is [Jo Kroese](https://jokroese.com). I'm a data scientist based between Barcelona and Amsterdam.
+
+### What is this?
+
+I realised studying maths had a big impact on the way I think about things. This blog looks at some of the models I take from maths to apply to life.
+
+### Why does it look so good?
+
+The design is built on [Before I Sleep](https://www.milesmcbain.com/) by Miles McBain, licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
