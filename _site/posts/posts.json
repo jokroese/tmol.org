@@ -1,21 +1,21 @@
 [
   {
-    "path": "posts/2021-11-20-survivorship-bias/",
+    "path": "posts/2021-11-21-survivorship-bias/",
     "title": "Survivorship Bias",
-    "description": "Being a billionaire college drop-out teaches you the same lesson as being shot in the head.",
+    "description": "A short description of the post.",
     "author": [
       {
         "name": "Jo Kroese",
         "url": "https://jokroese.com"
       }
     ],
-    "date": "2021-11-20",
-    "categories": [],
-    "contents": "\n\nFollow your heart (or some other celebrity advice, need to attribute it)\n\nBeing a billionaire college drop-out teaches you the same lesson as being shot in the head.\nAlmost all of us have dreamed of being successful, loved by those around us, adored for our commitment to our craft. So who should we take advice from to get there? Celebrities are all too keen to share their advice for how they got there. Follow your heart, pursue your passion, dropout of college. They say it was what got them to where they are now. We want to get there too. So should we listen? A story about world war two bombers and some seals tells us: no.\nBomber part of the story\nSeal part of the story\nopen to celebrity advice\ncollege dropouts\nother uses\narrest data - do black people commit more crimes? no they get caught and prosecuted more.\nother name for it: unseen filter bias\nmoral of the story: people and data go through a lot of places before they get to you. If some of those journeys change the mixture, you can end up thinking incorrectly about the population.\nDon’t make judgements about what we should do based on only the people who passed through the unseen filter. We need to pay attention to any guidance from the people who failed.\nData, like people, have a journey before they reach us. To understand something, we should minimise the distance between them and the phenomena we’re interested in or trying to measure, whether that’s arrest data or an advice’s utility.\nP.s. What if we don’t have any data where we expect some? That is, what if the unseen filter is so strong it filters out everything? That is a story that takes us from the existence of aliens to why our civilisation has a high probability of destroying itself. But that, class, is a story for another day.\n\n\n\n",
-    "preview": "posts/2021-11-20-survivorship-bias/survivorship-bias.png",
-    "last_modified": "2021-11-20T23:32:49+01:00",
-    "input_file": {},
-    "preview_width": 256,
-    "preview_height": 197
+    "date": "2021-11-21",
+    "categories": [
+      "psychology"
+    ],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-11-21T21:02:47+01:00",
+    "input_file": {}
   }
 ]

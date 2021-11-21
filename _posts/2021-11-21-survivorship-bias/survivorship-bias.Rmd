@@ -1,0 +1,25 @@
+---
+title: "Survivorship Bias"
+description: |
+  A short description of the post.
+author:
+  - name: Jo Kroese
+    url: https://jokroese.com
+date: 2021-11-21
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - psychology
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+
