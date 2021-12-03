@@ -13,9 +13,9 @@
     "categories": [
       "psychology"
     ],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "contents": "\n\nContents\nYes\nNo\nTrue\nFalse\n\nye\n\nYes\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\nThis content will appear in the gutter of the article.\nNo\nTrue\nFalse\nye\n\nAside\n\nThis is the aside\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-11-21T21:02:47+01:00",
-    "input_file": {}
+    "last_modified": "2021-12-03T19:53:10+01:00",
+    "input_file": "survivorship-bias.knit.md"
   }
 ]

@@ -8,6 +8,7 @@ author:
 date: 2021-11-21
 output:
   distill::distill_article:
+    toc: true
     self_contained: false
 categories:
   - psychology
@@ -18,8 +19,26 @@ categories:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Yes
+
 Distill is a publication format for scientific and technical writing, native to the web.
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
 
 
+<aside>
+This content will appear in the gutter of the article.
+</aside>
+
+# No
+
+## True
+
+## False
+
+# ye
+
+<details>
+  <summary>Aside</summary>
+  This is the aside
+</details>

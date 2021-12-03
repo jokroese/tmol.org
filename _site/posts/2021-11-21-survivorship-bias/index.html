@@ -123,7 +123,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Survivorship Bias"]},{"type":"character","attributes":{},"value":["A short description of the post."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Jo Kroese"]},{"type":"character","attributes":{},"value":["https://jokroese.com"]}]}]},{"type":"character","attributes":{},"value":["2021-11-21"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["psychology"]},{"type":"character","attributes":{},"value":["https://tmol.org/posts/2021-11-21-survivorship-bias/"]},{"type":"character","attributes":{},"value":["https://tmol.org/posts/2021-11-21-survivorship-bias/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Survivorship Bias"]},{"type":"character","attributes":{},"value":["A short description of the post."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Jo Kroese"]},{"type":"character","attributes":{},"value":["https://jokroese.com"]}]}]},{"type":"character","attributes":{},"value":["2021-11-21"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["psychology"]},{"type":"character","attributes":{},"value":["https://tmol.org/posts/2021-11-21-survivorship-bias/"]},{"type":"character","attributes":{},"value":["https://tmol.org/posts/2021-11-21-survivorship-bias/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2111,8 +2111,16 @@ document.addEventListener('DOMContentLoaded', function() {
     font-family: 'Alata', sans-serif;
     color: #000;
     background-color: #fff;
-    font-size: 15px;
+    font-size: 24px;
     font-weight: 400;
+}
+
+.distill-site-header .title {
+  font-size: 24px;
+}
+
+.nav-search {
+  font-size: 15px;
 }
 
 .distill-site-nav a:hover {
@@ -2172,6 +2180,9 @@ li::marker {
   font-size: 16px;
 }
 
+.timeline {
+  font-family: Cardo;
+}
 </style>
 <!--/radix_placeholder_site_in_header-->
 
@@ -2231,8 +2242,36 @@ li::marker {
 </div>
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#yes">Yes</a></li>
+<li><a href="#no">No</a>
+<ul>
+<li><a href="#true">True</a></li>
+<li><a href="#false">False</a></li>
+</ul></li>
+<li><a href="#ye">ye</a></li>
+</ul>
+</nav>
+</div>
+<h1 id="yes">Yes</h1>
 <p>Distill is a publication format for scientific and technical writing, native to the web.</p>
 <p>Learn more about using Distill at <a href="https://rstudio.github.io/distill" class="uri">https://rstudio.github.io/distill</a>.</p>
+<aside>
+This content will appear in the gutter of the article.
+</aside>
+<h1 id="no">No</h1>
+<h2 id="true">True</h2>
+<h2 id="false">False</h2>
+<h1 id="ye">ye</h1>
+<details>
+<summary>
+Aside
+</summary>
+This is the aside
+</details>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
@@ -2279,7 +2318,7 @@ li::marker {
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <!--radix_placeholder_navigation_after_body--><html><body>
 <div class="distill-site-nav distill-site-footer">
-<p>Â© Copyright 2021 <a href="https://jokroese.com">Jo Kroese</a>.</p>
+<p>Copyright Â© <script>document.write(new Date().getFullYear())</script><a href="https://jokroese.com">Jo Kroese</a>.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 </body></html>
