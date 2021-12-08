@@ -5,14 +5,14 @@
       "title": "About this blog",
       "author": [],
       "contents": "\nWho am I?\nMy name is Jo Kroese. I’m a data scientist based between Barcelona and Amsterdam.\nWhat is this?\nI realised studying maths had a big impact on the way I think about things. This blog looks at some of the models I take from maths to apply to life.\nWhy does it look so good?\nThe design is built on Before I Sleep by Miles McBain, licensed under Creative Commons Attribution CC BY 4.0.\n\n\n\n",
-      "last_modified": "2021-12-03T19:49:59+01:00"
+      "last_modified": "2021-12-08T23:24:11+01:00"
     },
     {
       "path": "index.html",
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-12-03T19:50:00+01:00"
+      "last_modified": "2021-12-08T23:24:11+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

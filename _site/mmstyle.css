@@ -26,17 +26,21 @@
   font-size: 15px;
 }
 
+.distill-site-header .logo img {
+  max-height: 24px;
+}
+
 .distill-site-nav a:hover {
-    color: #ff00ff;
+    color: #ff5fb4;
 }
 
 .categories li > a:hover {
-    color: #ff00ff;
-    border-bottom: 1px #ff00ff;
+    color: #ff5fb4;
+    border-bottom: 1px #ff5fb4;
 }
 
 p a:hover  {
-    color: #ff00ff;
+    color: #ff5fb4;
 }
 
 /* Change appearance of headers */
