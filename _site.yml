@@ -23,7 +23,7 @@ output:
       in_header: utterances.html
 base_url: https://tmol.org
 repository_url: https://www.github.com/joekroese/tmol.org
-favicon: images/favicon.ico
+favicon: images/favicon/favicon.ico
 collections:
   posts:
     share: [twitter, facebook, linkedin]
