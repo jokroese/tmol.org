@@ -5,7 +5,7 @@ description: |
 output_dir: "_site"
 navbar:
   logo:
-    image: images/i_like_turtles_bis.png
+    image: images/favicon/ms-icon-310x310.png
     href: https://tmol.org
   source_url: true
   right:
